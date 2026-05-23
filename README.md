@@ -70,31 +70,19 @@ about students registered on Open University courses between 2013 and 2014.
 
 ---
 
+
 ## 📈 Key Findings
 
-*(Updated as notebook sections are completed)*
-
----
-
-## ▶️ How to Run
-
-**Option 1 — Google Colab (recommended):**  
-Click the badge below to open directly in Colab:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kamran-geek/student-dropout-prediction/blob/main/student_dropout_analysis.ipynb)
-
-**Option 2 — Local:**
-```bash
-git clone https://github.com/Kamran-geek/student-dropout-prediction
-cd student-dropout-prediction
-pip install -r requirements.txt
-jupyter notebook
-```
-
----
-
-## 📬 Contact
-
-**Kamran Shafiq Dar**  
+- **53.2%** of students were classified as At Risk (Withdrawn or Fail)
+- **Most important predictor:** `studied_credits` — credit load is the
+  strongest signal of dropout risk
+- **Second most important:** `imd_band` — socioeconomic background
+  significantly affects outcomes
+- **Model accuracy:** 50.27% on synthetic data (expected 65–75% on
+  real OULAD dataset — see Section 5 for honest reflection)
+- **At Risk recall: 65%** — the model correctly identifies 65 in every
+  100 at-risk students using only pre-enrolment data
+- Older students (55+) and those with previous failed attempts show
+  distinctly higher risk profiles
 📧 Kamrandar128@gmail.com  
 🔗 [linkedin.com/in/kamran-dar-auramaxweb](https://linkedin.com/in/kamran-dar-auramaxweb)
